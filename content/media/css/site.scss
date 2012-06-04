@@ -1,0 +1,66 @@
+@import "boilerplate";
+@import "variables";
+@import "mixins";
+
+/* Real stuff. */
+body {
+    font-family: $main-ff;
+}
+
+@-keyframes anim {
+    from  { opacity: 1; }
+    25%   { opacity: 0; }
+    to    { opacity: 0; }
+}
+
+@-moz-keyframes anim /* Firefox */ {
+    from  { opacity: 1; }
+    25%   { opacity: 0; }
+    to    { opacity: 0; }
+}
+
+@-webkit-keyframes anim /* Safari and Chrome */ {
+    from  { opacity: 1; }
+    25%   { opacity: 0; }
+    to    { opacity: 0; }
+}
+
+header {
+
+    .mostpeople {
+        font-family: $monospace-ff;
+        font-size: 10px;
+        height: 12em;
+        background: $title-bg;
+        color: $title-fg;
+
+        pre {
+            height: 0px;
+            @include animation(anim, 4s, steps(1), infinite, running, forwards);
+        }
+
+        #frame1 {
+            @include animation-delay(0s);
+        }
+        #frame2 {
+            opacity: 0;
+            @include animation-delay(1s);
+        }
+        #frame3 {
+            opacity: 0;
+            @include animation-delay(2s);
+        }
+        #frame4 {
+            opacity: 0;
+            @include animation-delay(3s);
+        }
+    }
+
+    h3 {
+        font-family: $sans-serif-ff;
+        font-weight: 100;
+        letter-spacing: 1em;
+        text-align: center;
+        font-style: italic;
+    }
+}

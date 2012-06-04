@@ -1,0 +1,105 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  font-size: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse; }
+
+/* Fonts */
+/* Colors */
+/* Real stuff. */
+body {
+  font-family: Helvetica Neue, sans-serif; }
+
+@-keyframes anim {
+  from {
+    opacity: 1; }
+
+  25% {
+    opacity: 0; }
+
+  to {
+    opacity: 0; } }
+
+@-moz-keyframes anim {
+  from {
+    opacity: 1; }
+
+  25% {
+    opacity: 0; }
+
+  to {
+    opacity: 0; } }
+
+@-webkit-keyframes anim {
+  from {
+    opacity: 1; }
+
+  25% {
+    opacity: 0; }
+
+  to {
+    opacity: 0; } }
+
+header .mostpeople {
+  font-family: Andale Mono, monospace;
+  font-size: 10px;
+  height: 12em;
+  background: black;
+  color: white; }
+  header .mostpeople pre {
+    height: 0px;
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    -moz-animation-name: anim;
+    -moz-animation-duration: 4s;
+    -moz-animation-timing-function: steps(1);
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-name: anim;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: steps(1);
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards; }
+  header .mostpeople #frame1 {
+    animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s; }
+  header .mostpeople #frame2 {
+    opacity: 0;
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s; }
+  header .mostpeople #frame3 {
+    opacity: 0;
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s; }
+  header .mostpeople #frame4 {
+    opacity: 0;
+    animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s; }
+header h3 {
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1em;
+  text-align: center;
+  font-style: italic; }
