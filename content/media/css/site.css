@@ -18,10 +18,6 @@ table {
 
 /* Fonts */
 /* Colors */
-/* Real stuff. */
-body {
-  font-family: Helvetica Neue, sans-serif; }
-
 @-keyframes anim {
   from {
     opacity: 1; }
@@ -51,6 +47,19 @@ body {
 
   to {
     opacity: 0; } }
+
+/* Real stuff. */
+body {
+  font-family: Helvetica Neue, sans-serif; }
+
+a {
+  color: red; }
+  a:hover {
+    color: #ff9999; }
+  a:visited {
+    color: red; }
+  a:active {
+    color: #ff9999; }
 
 header .mostpeople {
   font-family: Andale Mono, monospace;

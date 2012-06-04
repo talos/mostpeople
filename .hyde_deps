@@ -28,6 +28,7 @@
   analytics.j2, macros.j2]
 !!python/unicode 'index.html': [mostpeople-frame2.j2, mostpeople-frame3.j2, mostpeople-frame1.j2,
   mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2, macros.j2]
+!!python/unicode 'media/css/_animation.scss': []
 !!python/unicode 'media/css/_boilerplate.scss': []
 !!python/unicode 'media/css/_mixins.scss': []
 !!python/unicode 'media/css/_variables.scss': []

@@ -1,28 +1,18 @@
 @import "boilerplate";
 @import "variables";
 @import "mixins";
+@import "animation";
 
 /* Real stuff. */
 body {
     font-family: $main-ff;
 }
 
-@-keyframes anim {
-    from  { opacity: 1; }
-    25%   { opacity: 0; }
-    to    { opacity: 0; }
-}
-
-@-moz-keyframes anim /* Firefox */ {
-    from  { opacity: 1; }
-    25%   { opacity: 0; }
-    to    { opacity: 0; }
-}
-
-@-webkit-keyframes anim /* Safari and Chrome */ {
-    from  { opacity: 1; }
-    25%   { opacity: 0; }
-    to    { opacity: 0; }
+a {
+    color: $link-color;
+    &:hover { color: $link-hover; }
+    &:visited { color: $link-visited; }
+    &:active { color: $link-active; }
 }
 
 header {

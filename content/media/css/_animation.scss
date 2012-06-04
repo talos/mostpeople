@@ -1,0 +1,18 @@
+@-keyframes anim {
+    from  { opacity: 1; }
+    25%   { opacity: 0; }
+    to    { opacity: 0; }
+}
+
+@-moz-keyframes anim /* Firefox */ {
+    from  { opacity: 1; }
+    25%   { opacity: 0; }
+    to    { opacity: 0; }
+}
+
+@-webkit-keyframes anim /* Safari and Chrome */ {
+    from  { opacity: 1; }
+    25%   { opacity: 0; }
+    to    { opacity: 0; }
+}
+
