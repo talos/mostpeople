@@ -1,0 +1,42 @@
+!!python/unicode 'about.html': [mostpeople-frame2.j2, mostpeople-frame3.j2, mostpeople-frame1.j2,
+  mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2, macros.j2]
+!!python/unicode 'blog/angry-post.html': [mostpeople-frame2.j2, blog.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/happy-post.html': [mostpeople-frame2.j2, blog.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'blog/index.html': [mostpeople-frame2.j2, listing.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'blog/sad-post.html': [mostpeople-frame2.j2, blog.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
+  macros.j2]
+!!python/unicode 'blog/tags/angry.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, tagged_posts.j2,
+  analytics.j2, macros.j2]
+!!python/unicode 'blog/tags/happy.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, tagged_posts.j2,
+  analytics.j2, macros.j2]
+!!python/unicode 'blog/tags/sad.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, tagged_posts.j2,
+  analytics.j2, macros.j2]
+!!python/unicode 'blog/tags/thoughts.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, tagged_posts.j2,
+  analytics.j2, macros.j2]
+!!python/unicode 'index.html': [mostpeople-frame2.j2, mostpeople-frame3.j2, mostpeople-frame1.j2,
+  mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2, macros.j2]
+!!python/unicode 'media/css/_boilerplate.scss': []
+!!python/unicode 'media/css/_mixins.scss': []
+!!python/unicode 'media/css/_variables.scss': []
+!!python/unicode 'media/css/site.css': []
+!!python/unicode 'media/css/site.scss': []
+!!python/unicode 'media/css/syntax.css': []
+!!python/unicode 'media/js/libs/dd_belatedpng.js': []
+!!python/unicode 'media/js/libs/jquery-1.5.1.min.js': []
+!!python/unicode 'media/js/libs/modernizr-1.7.min.js': []
+!!python/unicode 'portfolio/index.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
+  macros.j2]
