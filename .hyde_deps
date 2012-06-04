@@ -4,6 +4,9 @@
   mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
   macros.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/coming-soon.html': [mostpeople-frame2.j2, blog.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
+  macros.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/happy-post.html': [mostpeople-frame2.j2, blog.j2, mostpeople-frame3.j2,
   mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
@@ -14,6 +17,9 @@
 !!python/unicode 'blog/sad-post.html': [mostpeople-frame2.j2, blog.j2, mostpeople-frame3.j2,
   mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, analytics.j2,
   macros.j2]
+!!python/unicode 'blog/tags/None.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
+  mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, tagged_posts.j2,
+  analytics.j2, macros.j2]
 !!python/unicode 'blog/tags/angry.html': [mostpeople-frame2.j2, mostpeople-frame3.j2,
   mostpeople-frame1.j2, mostpeople-frame4.j2, mostpeople.j2, base.j2, tagged_posts.j2,
   analytics.j2, macros.j2]
