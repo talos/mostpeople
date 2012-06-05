@@ -11,18 +11,25 @@ body {
 a {
     color: $link-color;
     &:hover { color: $link-hover; }
-    &:visited { color: $link-visited; }
     &:active { color: $link-active; }
 }
 
 header {
 
+    a {
+        color: $banner-fg;
+        &:hover { color: $link-color; }
+    }
+
     .mostpeople {
         font-family: $monospace-ff;
+        font-weight: bold;
         font-size: 10px;
         height: 12em;
-        background: $title-bg;
-        color: $title-fg;
+        background: $banner-bg;
+        color: $banner-fg;
+        padding-bottom: $banner-margin;
+        margin-bottom: $banner-margin;
 
         pre {
             height: 0px;
@@ -45,12 +52,36 @@ header {
             @include animation-delay(3s);
         }
     }
+}
 
-    h3 {
-        font-family: $sans-serif-ff;
-        font-weight: 100;
-        letter-spacing: 1em;
-        text-align: center;
+section.content {
+    width: $content-width;
+    margin: $content-margins auto $content-margins auto;
+    color: $content-text-color;
+
+    nav {
+        position: relative;
+        width: $nav-width;
+        left: -$nav-width;
+        height: 0px;
+    }
+
+    ul.listing {
+        list-style-type: none;
+    }
+
+    ul.tags {
+        list-style-type: none;
+        display: inline-block;
         font-style: italic;
     }
+}
+
+footer {
+    background: $footer-bg;
+    color: $footer-fg;
+    width: 100%;
+    text-align: center;
+    padding: $marginal-distance 0 $marginal-distance 0;
+    @include banneresque;
 }

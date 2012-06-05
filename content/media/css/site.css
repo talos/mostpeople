@@ -18,6 +18,10 @@ table {
 
 /* Fonts */
 /* Colors */
+/* Measurements */
+/* Fonts */
+/* Colors */
+/* Measurements */
 @-keyframes anim {
   from {
     opacity: 1; }
@@ -50,23 +54,28 @@ table {
 
 /* Real stuff. */
 body {
-  font-family: Helvetica Neue, sans-serif; }
+  font-family: Helvetica Neue, Helvetica, sans-serif; }
 
 a {
   color: red; }
   a:hover {
-    color: #ff9999; }
-  a:visited {
-    color: red; }
+    color: #ff6666; }
   a:active {
-    color: #ff9999; }
+    color: #ffcccc; }
 
+header a {
+  color: white; }
+  header a:hover {
+    color: red; }
 header .mostpeople {
-  font-family: Andale Mono, monospace;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
   font-size: 10px;
   height: 12em;
   background: black;
-  color: white; }
+  color: white;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.4em; }
   header .mostpeople pre {
     height: 0px;
     animation-name: anim;
@@ -106,9 +115,30 @@ header .mostpeople {
     animation-delay: 3s;
     -moz-animation-delay: 3s;
     -webkit-animation-delay: 3s; }
-header h3 {
-  font-family: Helvetica Neue, sans-serif;
-  font-weight: 100;
-  letter-spacing: 1em;
+
+section.content {
+  width: 600px;
+  margin: 0.8em auto 0.8em auto;
+  color: #333333; }
+  section.content nav {
+    position: relative;
+    width: 200px;
+    left: -200px;
+    height: 0px; }
+  section.content ul.listing {
+    list-style-type: none; }
+  section.content ul.tags {
+    list-style-type: none;
+    display: inline-block;
+    font-style: italic; }
+
+footer {
+  background: black;
+  color: white;
+  width: 100%;
   text-align: center;
-  font-style: italic; }
+  padding: 0.4em 0 0.4em 0;
+  font-weight: 100;
+  font-style: italic;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  letter-spacing: 1em; }

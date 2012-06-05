@@ -1,12 +1,31 @@
 /* Fonts */
-$monospace-ff: Andale Mono, monospace;
-$sans-serif-ff: Helvetica Neue, sans-serif;
+$monospace-ff: Courier New, Courier, monospace;
+$sans-serif-ff: Helvetica Neue, Helvetica, sans-serif;
 $main-ff: $sans-serif-ff;
 
 /* Colors */
-$title-bg: black;
-$title-fg: white;
-$link-color: red;
-$link-visited: red;
-$link-hover: #f99;
-$link-active: $link-hover;
+$fg-color: black;
+$bg-color: white;
+$hilite-color: red;
+$color-distance: 20%;
+
+$banner-bg: $fg-color;
+$banner-fg: $bg-color;
+
+$footer-bg: $fg-color;
+$footer-fg: $bg-color;
+
+$link-color: $hilite-color;
+$link-visited: darken($hilite-color, $color-distance);
+$link-hover: lighten($hilite-color, $color-distance);
+$link-active: lighten($link-hover, $color-distance);
+
+$content-text-color: lighten($fg-color, $color-distance);
+
+/* Measurements */
+$marginal-distance: 0.4em;
+
+$banner-margin: $marginal-distance;
+$content-margins: $marginal-distance * 2;
+$content-width: 600px;
+$nav-width: 200px;
