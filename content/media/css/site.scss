@@ -77,6 +77,7 @@ section.content {
     }
 }
 
+@include sticky-footer(2em, "#container", "#container_footer", "footer");
 footer {
     background: $footer-bg;
     color: $footer-fg;

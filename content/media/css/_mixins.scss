@@ -1,4 +1,5 @@
 @import "variables";
+@import "compass/layout/sticky-footer";
 
 @mixin animation($name, $duration, $timing, $iteration, $play-state, $fill-mode) {
     animation-name: $name;

@@ -1,3 +1,4 @@
+/* line 1, _boilerplate.scss */
 * {
   vertical-align: baseline;
   font-weight: inherit;
@@ -7,14 +8,19 @@
   font-size: 100%;
   padding: 0;
   border: 0;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 14, _boilerplate.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
+/* line 18, _boilerplate.scss */
 table {
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
 /* Fonts */
 /* Colors */
@@ -23,50 +29,84 @@ table {
 /* Colors */
 /* Measurements */
 @-keyframes anim {
+  /* line 2, _animation.scss */
   from {
-    opacity: 1; }
+    opacity: 1;
+  }
 
+  /* line 3, _animation.scss */
   25% {
-    opacity: 0; }
+    opacity: 0;
+  }
 
+  /* line 4, _animation.scss */
   to {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 
 @-moz-keyframes anim {
+  /* line 8, _animation.scss */
   from {
-    opacity: 1; }
+    opacity: 1;
+  }
 
+  /* line 9, _animation.scss */
   25% {
-    opacity: 0; }
+    opacity: 0;
+  }
 
+  /* line 10, _animation.scss */
   to {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 
 @-webkit-keyframes anim {
+  /* line 14, _animation.scss */
   from {
-    opacity: 1; }
+    opacity: 1;
+  }
 
+  /* line 15, _animation.scss */
   25% {
-    opacity: 0; }
+    opacity: 0;
+  }
 
+  /* line 16, _animation.scss */
   to {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 
 /* Real stuff. */
+/* line 7, site.scss */
 body {
-  font-family: Helvetica Neue, Helvetica, sans-serif; }
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
 
+/* line 11, site.scss */
 a {
-  color: red; }
-  a:hover {
-    color: #ff6666; }
-  a:active {
-    color: #ffcccc; }
+  color: red;
+}
+/* line 13, site.scss */
+a:hover {
+  color: #ff6666;
+}
+/* line 14, site.scss */
+a:active {
+  color: #ffcccc;
+}
 
+/* line 19, site.scss */
 header a {
-  color: white; }
-  header a:hover {
-    color: red; }
+  color: white;
+}
+/* line 21, site.scss */
+header a:hover {
+  color: red;
+}
+/* line 24, site.scss */
 header .mostpeople {
   font-family: Courier New, Courier, monospace;
   font-weight: bold;
@@ -75,63 +115,108 @@ header .mostpeople {
   background: black;
   color: white;
   padding-bottom: 0.4em;
-  margin-bottom: 0.4em; }
-  header .mostpeople pre {
-    height: 0px;
-    animation-name: anim;
-    animation-duration: 4s;
-    animation-timing-function: steps(1);
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-fill-mode: forwards;
-    -moz-animation-name: anim;
-    -moz-animation-duration: 4s;
-    -moz-animation-timing-function: steps(1);
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-play-state: running;
-    -moz-animation-fill-mode: forwards;
-    -webkit-animation-name: anim;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-timing-function: steps(1);
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-    -webkit-animation-fill-mode: forwards; }
-  header .mostpeople #frame1 {
-    animation-delay: 0s;
-    -moz-animation-delay: 0s;
-    -webkit-animation-delay: 0s; }
-  header .mostpeople #frame2 {
-    opacity: 0;
-    animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -webkit-animation-delay: 1s; }
-  header .mostpeople #frame3 {
-    opacity: 0;
-    animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -webkit-animation-delay: 2s; }
-  header .mostpeople #frame4 {
-    opacity: 0;
-    animation-delay: 3s;
-    -moz-animation-delay: 3s;
-    -webkit-animation-delay: 3s; }
+  margin-bottom: 0.4em;
+}
+/* line 34, site.scss */
+header .mostpeople pre {
+  height: 0px;
+  animation-name: anim;
+  animation-duration: 4s;
+  animation-timing-function: steps(1);
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+  -moz-animation-name: anim;
+  -moz-animation-duration: 4s;
+  -moz-animation-timing-function: steps(1);
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-play-state: running;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-name: anim;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: steps(1);
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+}
+/* line 39, site.scss */
+header .mostpeople #frame1 {
+  animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+/* line 42, site.scss */
+header .mostpeople #frame2 {
+  opacity: 0;
+  animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+/* line 46, site.scss */
+header .mostpeople #frame3 {
+  opacity: 0;
+  animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+/* line 50, site.scss */
+header .mostpeople #frame4 {
+  opacity: 0;
+  animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
 
+/* line 57, site.scss */
 section.content {
   width: 600px;
   margin: 0.8em auto 0.8em auto;
-  color: #333333; }
-  section.content nav {
-    position: relative;
-    width: 200px;
-    left: -200px;
-    height: 0px; }
-  section.content ul.listing {
-    list-style-type: none; }
-  section.content ul.tags {
-    list-style-type: none;
-    display: inline-block;
-    font-style: italic; }
+  color: #333333;
+}
+/* line 62, site.scss */
+section.content nav {
+  position: relative;
+  width: 200px;
+  left: -200px;
+  height: 0px;
+}
+/* line 69, site.scss */
+section.content ul.listing {
+  list-style-type: none;
+}
+/* line 73, site.scss */
+section.content ul.tags {
+  list-style-type: none;
+  display: inline-block;
+  font-style: italic;
+}
 
+/* line 10, ../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#container {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -2em;
+}
+/* line 18, ../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#container #container_footer {
+  height: 2em;
+}
+
+/* line 20, ../../../../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+footer {
+  clear: both;
+  position: relative;
+  height: 2em;
+}
+
+/* line 81, site.scss */
 footer {
   background: black;
   color: white;
@@ -141,4 +226,5 @@ footer {
   font-weight: 100;
   font-style: italic;
   font-family: Helvetica Neue, Helvetica, sans-serif;
-  letter-spacing: 1em; }
+  letter-spacing: 1em;
+}
